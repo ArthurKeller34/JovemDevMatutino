@@ -31,20 +31,26 @@ public class Exercicio1 {
 		switch (opEscolhidaIn) {
 		case 1: 
 			switch (opEscolhidaReg) {
-			case 1: {
+			case 1: 
 				int qtCarrinho = Integer.parseInt(JOptionPane.showInputDialog("Quantos carrinhos deseja adicionar ao estoque? "));
-			}case 2:  
+				break;
+			case 2:  
 				int qtBoneca = Integer.parseInt(JOptionPane.showInputDialog("Quantas bonecas deseja adicionar ao estoque? "));
-			}case 3:
+				break;
+			case 3:
 				int qtBola = Integer.parseInt(JOptionPane.showInputDialog("Quantas bolas deseja adicionar ao estoque? "));
-		    case 4: 
+				break;
+			case 4: 
 			    int qtLego = Integer.parseInt(JOptionPane.showInputDialog("Quantos legos deseja adicionar ao estoque? "));
+			    break;
 		    case 5: 
 				int qtVideoGame = Integer.parseInt(JOptionPane.showInputDialog("Quantos Video Games deseja adicionar ao estoque? "));
+				break;
 		    case 6:
 				JOptionPane.showInputDialog(menuInicial);
 			}
 			
 		//case 2:
 		}//default:throw new IllegalArgumentException("Unexpected value: "+opEscolhida);
+	}
 }
